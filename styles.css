@@ -1,4 +1,5 @@
 
+
 img {
   width: 300px;
   height: auto;
@@ -22,8 +23,19 @@ br{
 }
 a{
 	color: #11111;
+  text-decoration: none;
 }
+a:hover{
+  text-decoration:underline;
+}
+.drop-caps{
+  color: #903;
+  float: left;
+  font-family: Georgia;
+  font-size:50px;
+  margin-top: -10px;
 
+}
 #mainContainer{
 	background-color: #5b5656;
 	width: 800px;
@@ -48,3 +60,4 @@ a{
 h1, h2{
 	color: #f7d695;
 }
+
